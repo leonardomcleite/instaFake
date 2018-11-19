@@ -34,13 +34,13 @@ Para conseguir emular a aplicação no Windows, siga os passos abaixo:
       
 Digite o comando abaixo no cmd (Não esqueca de trocar `<SEU_USUÁRIO>`)
 
-      $ C:\Users\`<SEU_USUÁRIO>`\AppData\Local\Android\sdk\tools\emulator.exe -list-avds
+      $ C:\Users\<SEU_USUÁRIO>\AppData\Local\Android\sdk\tools\emulator.exe -list-avds
       Nexus_5_API_23
       Nexus_5_API_28
       
 Ele vai listar os emuladores que você ja criou escolha um e execute o comando abaixo com o escolhido.
 
-      $ C:\Users\`<SEU_USUÁRIO>`\AppData\Local\Android\sdk\tools\emulator.exe -avd Nexus_5_API_28
+      $ C:\Users\<SEU_USUÁRIO>\AppData\Local\Android\sdk\tools\emulator.exe -avd Nexus_5_API_28
       
 Pronto o emulador está aberto. Para facilitar as proximas vezes, crie um `.bat` com o ultimo comando e pronto é so dar dois cliques que ele irá executar.
     
