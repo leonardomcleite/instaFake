@@ -26,11 +26,11 @@ Instale o framework [Reac Native](https://facebook.github.io/react-native/docs/g
 
 Para conseguir emular a aplicação no Windows, siga os passos abaixo:
 
-    1. Instale o [Hardware Accelerated Execution Manager (Intel® HAXM)] (https://software.intel.com/en-us/articles/intel-hardware-accelerated-execution-manager-intel-haxm)
-    2. Reinicie sua máquina e entre na BIOS, encotre a opção `Intel Virtualization Technology` se estiver desabilitada [Disabled] e Habilite-a [Enable]. Esta é que permite a emulação no Windows
-    3. Instale o [Android Studio](https://developer.android.com/studio/).
-    4. Crie um emulador AVD conforme o [link](https://developer.android.com/studio/run/managing-avds?hl=pt-br)
-    5. Para abrir o emulador sem ter que abrir o Android Studio (Que honera bastante o processamento). Siga os passos abaixo:
+- 1. Instale o [Hardware Accelerated Execution Manager (Intel® HAXM)] (https://software.intel.com/en-us/articles/intel-hardware-accelerated-execution-manager-intel-haxm)
+- 2. Reinicie sua máquina e entre na BIOS, encotre a opção `Intel Virtualization Technology` se estiver desabilitada [Disabled] e Habilite-a [Enable]. Esta é que permite a emulação no Windows
+- 3. Instale o [Android Studio](https://developer.android.com/studio/).
+- 4. Crie um emulador AVD conforme o [link](https://developer.android.com/studio/run/managing-avds?hl=pt-br)
+- 5. Para abrir o emulador sem ter que abrir o Android Studio (Que honera bastante o processamento). Siga os passos abaixo:
       
       Digite o comando abaixo no cmd
       $ C:\Users\`<SEU_USUÁRIO>`\AppData\Local\Android\sdk\tools\emulator.exe -list-avds
@@ -42,5 +42,5 @@ Para conseguir emular a aplicação no Windows, siga os passos abaixo:
       
       Pronto o emulador está aberto. Para facilitar as proximas vezes, crie um .bat com o ultimo comando e pronto é so dar dois cliques que ele irá executar.
     
-    6. Com o emulador aberto agora é só executar `react-native run-android`. Este processo demora da primeira vez, então vá tomar um café... Quando estiver finalizado o app estará aberto no emulador.
+- 6. Com o emulador aberto agora é só executar `react-native run-android`. Este processo demora da primeira vez, então vá tomar um café... Quando estiver finalizado o app estará aberto no emulador.
     
