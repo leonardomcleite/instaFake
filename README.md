@@ -30,7 +30,8 @@ Para conseguir emular a aplicação no Windows, siga os passos abaixo:
 - Reinicie sua máquina e entre na BIOS, encotre a opção `Intel Virtualization Technology` se estiver desabilitada [Disabled] e Habilite-a [Enable]. Esta é que permite a emulação no Windows
 - Instale o [Android Studio](https://developer.android.com/studio/).
 - Configure uma nova variavel de ambiente (Não esqueca de alterar `SEU_USUÁRIO`)
-
+    
+    $
     Nome da Variavel: ANDROID_HOME
     Valor da Variavel: C:\Users\SEU_USUÁRIO\AppData\Local\Android\Sdk
     
