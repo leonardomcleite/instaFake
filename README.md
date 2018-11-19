@@ -27,7 +27,7 @@ Instale o framework [Reac Native](https://facebook.github.io/react-native/docs/g
 Para conseguir emular a aplicação no Windows, siga os passos abaixo:
 
 - Instale o [Hardware Accelerated Execution Manager HAXM](https://software.intel.com/en-us/articles/intel-hardware-accelerated-execution-manager-intel-haxm)
-- Reinicie sua máquina e entre na BIOS, encotre a opção `Intel Virtualization Technology` se estiver desabilitada [Disabled] e Habilite-a [Enable]. Esta é que permite a emulação no Windows
+- Reinicie sua máquina e entre na BIOS, encontre a opção `Intel Virtualization Technology` se estiver desabilitada [Disabled], habilite-a [Enable]. Esta é que permite a emulação no Windows
 - Instale o [Android Studio](https://developer.android.com/studio/).
 - Configure uma nova variavel de ambiente (Não esqueca de alterar `SEU_USUÁRIO`)
 
