@@ -33,6 +33,7 @@ Para conseguir emular a aplicação no Windows, siga os passos abaixo:
 
     Nome da Variavel: ANDROID_HOME
     Valor da Variavel: C:\Users\SEU_USUÁRIO\AppData\Local\Android\Sdk
+    
 *Para mais informações [Getting Started Android React Native](https://facebook.github.io/react-native/docs/getting-started). Va na aba `Building Projects with Native Code`
     
 - Crie um emulador AVD conforme o [link](https://developer.android.com/studio/run/managing-avds?hl=pt-br)
