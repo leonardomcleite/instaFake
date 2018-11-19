@@ -31,9 +31,8 @@ Para conseguir emular a aplicação no Windows, siga os passos abaixo:
 - Instale o [Android Studio](https://developer.android.com/studio/).
 - Configure uma nova variavel de ambiente (Não esqueca de alterar `SEU_USUÁRIO`)
     
-    $
-    Nome da Variavel: ANDROID_HOME
-    Valor da Variavel: C:\Users\SEU_USUÁRIO\AppData\Local\Android\Sdk
+    $ Nome da Variavel: ANDROID_HOME
+    $ Valor da Variavel: C:\Users\SEU_USUÁRIO\AppData\Local\Android\Sdk
     
 *Para mais informações [Getting Started Android React Native](https://facebook.github.io/react-native/docs/getting-started). Va na aba `Building Projects with Native Code`
     
