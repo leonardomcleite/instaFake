@@ -1,7 +1,7 @@
 # Instagram Fake (Aprendizado)
 
 ## Sobre o projeto
-  Este projeto é para aprendizado do framework multiplataforma [Reac Native](https://facebook.github.io/react-native/docs/getting-started).
+  Este projeto é para aprendizado do framework multiplataforma [React Native](https://facebook.github.io/react-native/docs/getting-started).
   Abaixo segue os `requirements` para instalação e usabilidade do app em um emulador. Não tenho como ensinar os passos para IOS pois não tenho um PC IOS.
   Portanto só ensinarei a rodar o projeto via Windows e Android. SORRY!.
 
