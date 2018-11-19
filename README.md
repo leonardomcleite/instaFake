@@ -1,4 +1,4 @@
-# PROJECT - INSTAGRAM FAKE (Para aprendizado)
+# Instagram Fake (Aprendizado)
 
 ## Sobre o projeto
   Este projeto é para aprendizado do framework multiplataforma [Reac Native](https://facebook.github.io/react-native/docs/getting-started).
@@ -32,15 +32,15 @@ Para conseguir emular a aplicação no Windows, siga os passos abaixo:
 - Crie um emulador AVD conforme o [link](https://developer.android.com/studio/run/managing-avds?hl=pt-br)
 - Para abrir o emulador sem ter que abrir o Android Studio (Que honera bastante o processamento). Siga os passos abaixo:
       
-      Digite o comando abaixo no cmd
+Digite o comando abaixo no cmd
       $ C:\Users\`<SEU_USUÁRIO>`\AppData\Local\Android\sdk\tools\emulator.exe -list-avds
       Nexus_5_API_23
       Nexus_5_API_28
       
-      Ele vai listar os emuladores que você ja criou escolha um e execute o comando abaixo com o escolhido.
+Ele vai listar os emuladores que você ja criou escolha um e execute o comando abaixo com o escolhido.
       $ C:\Users\`<SEU_USUÁRIO>`\AppData\Local\Android\sdk\tools\emulator.exe -avd Nexus_5_API_28
       
-      Pronto o emulador está aberto. Para facilitar as proximas vezes, crie um .bat com o ultimo comando e pronto é so dar dois cliques que ele irá executar.
+Pronto o emulador está aberto. Para facilitar as proximas vezes, crie um .bat com o ultimo comando e pronto é so dar dois cliques que ele irá executar.
     
-- 6. Com o emulador aberto agora é só executar `react-native run-android`. Este processo demora da primeira vez, então vá tomar um café... Quando estiver finalizado o app estará aberto no emulador.
+- Com o emulador aberto agora é só executar `react-native run-android`. Este processo demora da primeira vez, então vá tomar um café... Quando estiver finalizado o app estará aberto no emulador.
     
