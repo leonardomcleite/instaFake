@@ -18,7 +18,7 @@ Abaixo estão as versões instaladas que funcionam:
 
 ### React Native
 
-Instale o framework [Reac Native](https://facebook.github.io/react-native/docs/getting-started) conforme abaixo:
+Instale o framework [React Native](https://facebook.github.io/react-native/docs/getting-started) conforme abaixo:
 
     $ npm install -g react-native-cli
 

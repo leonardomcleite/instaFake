@@ -6,6 +6,10 @@ const width = Dimensions.get('screen').width;
 
 export default class Login extends Component {
 
+  static navigationOptions = {
+    title: 'Welcome',
+  };
+
   constructor(props) {
     super(props);
     this.state = {
@@ -15,6 +19,7 @@ export default class Login extends Component {
   }
 
   submitedUser() {
+    const {navigate} = this.props.navigation;
     const endPoint = "https://instalura-api.herokuapp.com/api/public/login";
 
     const requestInfo = {
@@ -40,6 +45,8 @@ export default class Login extends Component {
           ['usuario', this.state.usuario],
           ['token', token]
         ]);
+
+        navigate('Feed', {name: 'Feed'})
       })
       .catch(e => this.setState({message: e.message}))
   }
